@@ -1,0 +1,98 @@
+{
+
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/notes/notes",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "手记"
+			}
+		},
+
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "搜索"
+			}
+		},
+
+		{
+			"path": "pages/classroom/classroom",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "课堂"
+			}
+		},
+
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+
+	"tabBar": {
+		// "position": ,
+		"color": "#A1A1A1",
+		"selectedColor": "#000",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "/static/images/home.png",
+				"selectedIconPath": "/static/images/home (1).png"
+			},
+
+			{
+				"pagePath": "pages/notes/notes",
+				"text": "手记",
+				"iconPath": "static/images/_w.png",
+				"selectedIconPath": "static/images/qS.png"
+			},
+
+			{
+				"pagePath": "pages/search/search",
+				"text": "搜索",
+				"iconPath": "static/images/KJ.png",
+				"selectedIconPath": "static/images/Ze.png"
+			},
+
+			{
+				"pagePath": "pages/classroom/classroom",
+				"text": "课堂",
+				"iconPath": "static/images/Zs.png",
+				"selectedIconPath": "/static/images/sK.png"
+			},
+
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/images/hV.png",
+				"selectedIconPath": "/static/images/u-.png"
+			}
+		]
+	}
+}
