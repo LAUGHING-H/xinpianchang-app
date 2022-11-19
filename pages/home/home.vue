@@ -1,6 +1,7 @@
 <template>
 	<view class="home">
 		<HomeTabBerComponent :tabberList="tabberList"></HomeTabBerComponent>
+		5645656
 		<tabbar :current="0"></tabbar>
 	</view>
 </template>
