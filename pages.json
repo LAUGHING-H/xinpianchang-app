@@ -55,43 +55,24 @@
 	},
 
 	"tabBar": {
-		// "position": ,
-		"color": "#A1A1A1",
-		"selectedColor": "#000",
-		"backgroundColor": "#fff",
 		"list": [{
-				"pagePath": "pages/home/home",
-				"text": "首页",
-				"iconPath": "/static/images/home.png",
-				"selectedIconPath": "/static/images/home (1).png"
+				"pagePath": "pages/home/home"
 			},
 
 			{
-				"pagePath": "pages/notes/notes",
-				"text": "手记",
-				"iconPath": "static/images/_w.png",
-				"selectedIconPath": "static/images/qS.png"
+				"pagePath": "pages/notes/notes"
 			},
 
 			{
-				"pagePath": "pages/search/search",
-				"text": "搜索",
-				"iconPath": "static/images/KJ.png",
-				"selectedIconPath": "static/images/Ze.png"
+				"pagePath": "pages/search/search"
 			},
 
 			{
-				"pagePath": "pages/classroom/classroom",
-				"text": "课堂",
-				"iconPath": "static/images/Zs.png",
-				"selectedIconPath": "/static/images/sK.png"
+				"pagePath": "pages/classroom/classroom"
 			},
 
 			{
-				"pagePath": "pages/my/my",
-				"text": "我的",
-				"iconPath": "static/images/hV.png",
-				"selectedIconPath": "/static/images/u-.png"
+				"pagePath": "pages/my/my"
 			}
 		]
 	}

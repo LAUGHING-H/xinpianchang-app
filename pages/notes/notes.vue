@@ -1,16 +1,21 @@
 <template>
 	<view class="notes">
-		这是手记页面
+		<tabbar :current="1"></tabbar>
 	</view>
 </template>
 
 <script>
+	import tabbar from '@/components/tabber/tabber.vue'
 	export default {
 		data() {
 			return {
 
 			};
-		}
+		},
+
+		components: {
+			tabbar
+		},
 	}
 </script>
 

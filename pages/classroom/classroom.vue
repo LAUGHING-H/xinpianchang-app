@@ -1,16 +1,22 @@
 <template>
 	<view class="class-room">
-		这是课堂页面
+		<tabbar :current="3"></tabbar>
 	</view>
 </template>
 
 <script>
+	import tabbar from '@/components/tabber/tabber.vue'
 	export default {
 		data() {
 			return {
 
 			}
 		},
+
+		components: {
+			tabbar
+		},
+
 	}
 </script>
 
